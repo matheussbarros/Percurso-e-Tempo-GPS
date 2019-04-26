@@ -16,4 +16,5 @@
     <string name="searchEditText">O que você deseja encontrar</string>
     <string name="permissionGpsBtn">Conceder permissão de GPS</string>
     <string name="iconLocation">Mostra um icone ativado/desativado do GPS</string>
+    <string name="btnSearchDesc">Botão pesquisar no maps</string>
 </resources>

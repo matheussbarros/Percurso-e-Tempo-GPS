@@ -16,4 +16,5 @@
     <string name="timeTextViewMessage">Tiempo pasado %s</string>
     <string name="searchEditText">Lo que usted desea encontrar</string>
     <string name="iconLocation">Muestra un icono activado / desactivado del GPS</string>
+    <string name="btnSearchDesc">Botón de búsqueda en el mapa</string>
 </resources>

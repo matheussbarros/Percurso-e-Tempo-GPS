@@ -16,4 +16,5 @@
     <string name="distanceTextView">Zurückgelegte Entfernung</string>
     <string name="distanceMessage">Zurückgelegte Entfernung: %f</string>
     <string name="iconLocation">Zeigt ein Ein / Aus-GPS-Symbol an</string>
+    <string name="btnSearchDesc">Suchschaltfläche in Karten</string>
 </resources>

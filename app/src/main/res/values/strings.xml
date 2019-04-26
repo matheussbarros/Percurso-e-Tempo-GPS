@@ -16,4 +16,5 @@
     <string name="timeTextViewMessage">Time spent %s</string>
     <string name="searchEditText">What do you want to find</string>
     <string name="iconLocation">Displays an on / off GPS icon</string>
+    <string name="btnSearchDesc">Search button in maps</string>
 </resources>

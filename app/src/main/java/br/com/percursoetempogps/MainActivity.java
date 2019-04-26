@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView gpsImageView;
     private TextView distPercorrida;
     private TextInputEditText searchInput;
-   // private TextView localTextView;
+
 
     private Button permicaoGpsBt;
     private Button ativaGpsBt;
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       // localTextView = findViewById(R.id.localTextView);
+      
         gpsImageView = findViewById(R.id.gpsImageView);
         tempoChronometer = findViewById(R.id.tempoChronometer);
         distPercorrida = findViewById(R.id.distPercorrida);
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //PEDE PERMISSÃO
                 String[] permissions = {Manifest.permission.ACCESS_FINE_LOCATION};
                 ActivityCompat.requestPermissions(this, permissions, RESQUEST_PERMISSION_GPS);
-                //Log.v("PTG:", " Foi dada Permição ");
+
                 break;
             case R.id.ativaGpsBt:
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {  //Liga Hardware de GPS
@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     );
                     gpsLigado = true;
                     gpsImageView.setImageResource(R.drawable.gpson);
-                  //  Log.v("PTG:", " GPS foi ativado ");
+
                 } else {
                     exibeMensagem(getString(R.string.permissionDeniedGps));
                 }
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.desativaGpsBt:
                 if (!gpsLigado) {
                     exibeMensagem(getString(R.string.GpsNotEnabled));
-                  //  Log.v("PTG:", " GPS não está ativado ");
+
                 }
                 locationManager.removeUpdates(locationListener);
                 gpsLigado = false;
@@ -229,10 +229,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 } else {
                     String distFinal = getString(R.string.distanceMessage, distancia);
-                    //Toast.makeText(this,distFinal, Toast.LENGTH_SHORT).show();
+
 
                     String tempoFinal = getString(R.string.timeTextViewMessage, tempoChronometer.getText().toString());
-                   // Toast.makeText(this,tempoFinal, Toast.LENGTH_SHORT).show();
+
                     exibeMensagem(distFinal + "\n" +tempoFinal);
 
                     percursoIniciado = false;
