@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTopBt">8dp</dimen>
+    <dimen name="marginBottomBt">8dp</dimen>
+    <dimen name="paddingTopBotBt">20dp</dimen>
+    <dimen name="appTextSize">18sp</dimen>
+    <dimen name="paddText">8dp</dimen>
+    <dimen name="marginTextTop">5dp</dimen>
+    <dimen name="marginTextBottom">8dp</dimen>
+</resources>

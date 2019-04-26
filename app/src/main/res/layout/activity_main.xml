@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="8"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/permicaoGpsBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTopBt"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:paddingTop="@dimen/paddingTopBotBt"
+        android:paddingBottom="@dimen/paddingTopBotBt"
+        android:text="@string/permissionGpsBtn"
+        android:textColor="@color/colorBtn1"
+        android:layout_columnSpan="2"/>
+
+    <ImageView
+        android:id="@+id/gpsImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:contentDescription="@string/iconLocation"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/gpsoff" />
+
+    <Button
+        android:id="@+id/ativaGpsBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTopBt"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:backgroundTint="@color/colorBtn1"
+        android:paddingTop="@dimen/paddingTopBotBt"
+        android:paddingBottom="@dimen/paddingTopBotBt"
+        android:text="@string/enableGpsBtn"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_columnSpan="2"/>
+
+    <Button
+        android:id="@+id/desativaGpsBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTopBt"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:backgroundTint="@color/colorBtn1"
+        android:paddingTop="@dimen/paddingTopBotBt"
+        android:paddingBottom="@dimen/paddingTopBotBt"
+        android:text="@string/disableGpsBtn"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_columnSpan="2"/>
+
+    <Button
+        android:id="@+id/iniciaPercursoBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTopBt"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:backgroundTint="@color/colorBtn1"
+        android:paddingTop="@dimen/paddingTopBotBt"
+        android:paddingBottom="@dimen/paddingTopBotBt"
+        android:text="@string/startCourseBtn"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_columnSpan="2"/>
+
+    <Button
+        android:id="@+id/terminaPercursoBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTopBt"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:backgroundTint="@color/colorBtn1"
+        android:paddingTop="@dimen/paddingTopBotBt"
+        android:paddingBottom="@dimen/paddingTopBotBt"
+        android:text="@string/finishCourseBtn"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_columnSpan="2"/>
+
+    <TextView
+        android:id="@+id/distanciaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTopBt"
+        android:layout_marginBottom="@dimen/marginTextBottom"
+        android:padding="@dimen/paddText"
+        android:text="@string/distanceTextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/appTextSize"
+        android:textStyle="bold"
+        android:layout_columnSpan="2"/>
+
+    <TextView
+        android:id="@+id/distPercorrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTopBt"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:padding="@dimen/paddText"
+        android:text="0.0"
+        android:textSize="@dimen/appTextSize"
+        android:textStyle="bold"
+        android:layout_columnSpan="2"/>
+
+    <TextView
+        android:id="@+id/tempoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTextTop"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:padding="@dimen/paddText"
+        android:text="@string/timeTextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/appTextSize"
+        android:textStyle="bold"
+        android:layout_columnSpan="2"/>
+
+    <Chronometer
+        android:id="@+id/tempoChronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTextTop"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:textSize="@dimen/appTextSize"
+        android:padding="@dimen/paddText"
+        android:textStyle="bold"
+        android:layout_columnSpan="2"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill_horizontal"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/searchInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:hint="@string/searchEditText" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_columnSpan="1"
+        android:layout_gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/search" />
+
+    <!--<TextView
+        android:id="@+id/localTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_marginTop="@dimen/marginTextTop"
+        android:layout_marginBottom="@dimen/marginBottomBt"
+        android:padding="@dimen/paddText"
+        android:text="..."
+        android:textColor="@color/appTextColor"
+        android:textSize="@dimen/appTextSize"
+        android:textStyle="bold" /> -->
+
+
+
+</GridLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Percurso e Tempo GPS</string>
+    <string name="dialogTitle">Warnung</string>
+    <string name="permissionDeniedGps">Sie müssen die Verwendung von GPS zulassen</string>
+    <string name="GpsNotEnabled">GPS ist nicht aktiviert</string>
+    <string name="enableGpsForRoute">Sie müssen GPS aktivieren, um die Route zu starten</string>
+    <string name="courseNotStarted">Es wurde keine Route begonnen</string>
+    <string name="permissionGpsBtn">Erlaube GPS-Erlaubnis</string>
+    <string name="enableGpsBtn">GPS aktivieren</string>
+    <string name="disableGpsBtn">GPS deaktivieren</string>
+    <string name="startCourseBtn">Route starten</string>
+    <string name="finishCourseBtn">Kurs beenden</string>
+    <string name="timeTextView">Zeitaufwand</string>
+    <string name="timeTextViewMessage">Zeitaufwand %s</string>
+    <string name="searchEditText">Was möchtest du finden?</string>
+    <string name="distanceTextView">Zurückgelegte Entfernung</string>
+    <string name="distanceMessage">Zurückgelegte Entfernung: %f</string>
+    <string name="iconLocation">Zeigt ein Ein / Aus-GPS-Symbol an</string>
+</resources>

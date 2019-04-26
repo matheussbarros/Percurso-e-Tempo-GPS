@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recorrido y tiempo GPS</string>
+    <string name="dialogTitle">Aviso</string>
+    <string name="permissionDeniedGps">Usted debe permitir el uso de GPS</string>
+    <string name="GpsNotEnabled">GPS no está activado</string>
+    <string name="enableGpsForRoute">Usted necesita activar el GPS para iniciar un recorrido</string>
+    <string name="courseNotStarted">No hay recorrido iniciado</string>
+    <string name="permissionGpsBtn">Conceder permiso de GPS</string>
+    <string name="enableGpsBtn">Activar GPS</string>
+    <string name="disableGpsBtn">Desactivar GPS</string>
+    <string name="startCourseBtn">Inicio de ruta</string>
+    <string name="finishCourseBtn">Terminar recorrido</string>
+    <string name="distanceTextView">Distancia recorrida</string>
+    <string name="distanceMessage">Distancia recorrida: %f</string>
+    <string name="timeTextView">Tiempo pasado</string>
+    <string name="timeTextViewMessage">Tiempo pasado %s</string>
+    <string name="searchEditText">Lo que usted desea encontrar</string>
+    <string name="iconLocation">Muestra un icono activado / desactivado del GPS</string>
+</resources>

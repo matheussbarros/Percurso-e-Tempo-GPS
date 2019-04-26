@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Course and Time GPS</string>
+    <string name="dialogTitle">warning</string>
+    <string name="permissionDeniedGps">You must allow the use of GPS</string>
+    <string name="GpsNotEnabled">GPS is not enabled</string>
+    <string name="enableGpsForRoute">You need to enable GPS to start the route</string>
+    <string name="courseNotStarted">There is no route started</string>
+    <string name="permissionGpsBtn">Grant GPS permission</string>
+    <string name="enableGpsBtn">Enable GPS</string>
+    <string name="disableGpsBtn">Disable GPS</string>
+    <string name="startCourseBtn">Start route</string>
+    <string name="finishCourseBtn">Finish course</string>
+    <string name="distanceTextView">Travelled distance</string>
+    <string name="distanceMessage">Travelled distance: %f</string>
+    <string name="timeTextView">Time spent %f</string>
+    <string name="timeTextViewMessage">Time spent %s</string>
+    <string name="searchEditText">What do you want to find</string>
+    <string name="iconLocation">Displays an on / off GPS icon</string>
+</resources>
